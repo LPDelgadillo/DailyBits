@@ -1,0 +1,41 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.contenedor img {
+    margin-top: 50px;
+}
+.formFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inputInicio{
+    background-color: white;
+    padding: 8px ;
+    width: 250px;
+    color: black;
+    border:none;
+}
+.selectRol{
+    background-color: rgb(174, 66, 174);
+    margin-left: 10px;
+    border:none;
+    padding: 2px;
+}
+.iniciarSesion{
+    background-color: rgb(213, 84, 84);
+    padding: 5px;
+    border:none;
+    cursor: pointer;
+}
+.btnRegistrarme{
+    /* background-color: rgb(66, 111, 174); */
+    padding: 5px;
+    border:none;
+    margin-top: 50px;
+    cursor: pointer;
+}
